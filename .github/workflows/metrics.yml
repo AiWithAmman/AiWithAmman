@@ -27,3 +27,5 @@ jobs:
           plugin_lines: yes
           plugin_topics: yes
           plugin_topics_mode: mastered
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: https://syed-kazmi.vercel.app/
