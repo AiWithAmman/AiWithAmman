@@ -17,6 +17,10 @@ jobs:
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           config_timezone: America/Chicago
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 30
+          plugin_habits_from: 200
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
@@ -25,3 +29,6 @@ jobs:
           plugin_lines: yes
           plugin_topics: yes
           plugin_topics_mode: mastered
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: https://syed-kazmi.vercel.app/
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
